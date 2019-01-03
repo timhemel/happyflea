@@ -1,0 +1,5 @@
+#!/bin/sh
+
+d=`dirname "$0"`
+
+"$d"/happyflea_main | awk 'ok == 1 { print }; /^---- GRAPH START ----$/ { ok = 1 }'
