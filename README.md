@@ -5,6 +5,8 @@ machine (DFA). For example protocol implementations, user interfaces and web app
 
 Happyflea is a small tool to detect missing transitions in a DFA. The DFA is described in a simple Prolog file, and Happyflea outputs a [Graphviz](http://www.graphviz.org/) DOT file that shows the DFA transitions, with the missing ones highlighted.
 
+The name was chosen because typically only the [happy flow](https://en.wikipedia.org/wiki/Happy_path) in a program is specified. Fleas are as unwanted as bugs and can jump to undefined places.
+
 
 # Installation
 
